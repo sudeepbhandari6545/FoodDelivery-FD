@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home {
+  height: 100vh;
+}
+.home-main-div {
+  padding-top: 200px;
+}
+/* input field */
+.Email-me {
+  width: 80%;
+  height: 40px;
+  border: 1px solid orange;
+  border-radius: 3px;
+  padding-left: 20px;
+}
+/* animated-image */
+.animated-image {
+  width: 440px;
+}

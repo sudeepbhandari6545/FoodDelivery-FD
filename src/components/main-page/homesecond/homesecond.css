@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home-second {
+  background-color: #dbdedf;
+  height: 100vh;
+}
+.second-div {
+  padding-top: 50px;
+  padding-right: 50px;
+}
+/* button */
+.Appstore {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  width: 170px;
+  text-transform: capitalize;
+  height: 60px;
+}
+.Appstore2 {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #ecf0f1;
+  width: 170px;
+  text-transform: capitalize;
+  height: 60px;
+}
+.app-button {
+  position: relative;
+  right: 12px;
+  padding-bottom: 7px;
+}
+.google-button {
+  position: relative;
+  right: 2px;
+  padding-bottom: 5px;
+}
+.homesecond-image {
+  width: 500px;
+  padding-top: 150px;
+  padding-left: 100px;
+  align-items: center;
+  justify-content: center;
+}
