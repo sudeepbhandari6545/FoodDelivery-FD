@@ -1,3 +1,23 @@
 .counter-div {
   border-right: 1px solid gray;
 }
+.location ul li {
+  list-style-type: none;
+  font-size: 18px;
+  margin: 15px;
+  padding: 5px;
+}
+.counter-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+}
+.email-counter {
+  width: 60%;
+  height: 50px;
+  padding: 15px;
+  border: 1px solid orangered;
+  font-size: 20px;
+}
