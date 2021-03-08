@@ -1,0 +1,20 @@
+.main-footer {
+  background-color: brown;
+}
+ul li {
+  margin: 8px;
+  list-style-type: none;
+}
+ul li a {
+  text-transform: capitalize;
+  color: white;
+  font-size: 18px;
+}
+.Appstore-second {
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: white;
+  width: 150px;
+  text-transform: capitalize;
+  height: 50px;
+}
