@@ -6,14 +6,21 @@ import './navbar.css';
 const Navbarcom = () => {
   return (
     <>
-      <Navbar expand="lg" bg="dark" className="fixed-top">
+      <Navbar expand="lg" bg="dark" className="navbar-dark fixed-top">
         <Navbar.Brand
           className="text-warning font-weight-bold text-center"
           href="#home"
         >
           Food Delivery FD
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle
+          type="button"
+          aria-label="Toggle navigation"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+        />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto">
             <Nav.Link className="text-white my-nav-item" href="#home">

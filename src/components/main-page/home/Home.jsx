@@ -13,15 +13,15 @@ const Home = () => {
         {/* home main div */}
         <div className="home-main-div">
           <Row>
-            <Col md={6}>
+            <Col xs={12} sm={12} md={6}>
               {/* home image */}
               <img
                 className="animated-image"
                 src={process.env.PUBLIC_URL + './image/animated/cycling.gif'}
               />
             </Col>
-            <Col sm={12} md={6}>
-              <div className="pl-5">
+            <Col xs={12} sm={12} md={6}>
+              <div className="Home-heading">
                 <h1 className="font-weight-bold text-justify" style={textsize}>
                   Your Favorite <br /> Food, on the <br /> way!
                 </h1>

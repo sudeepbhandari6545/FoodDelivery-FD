@@ -84,9 +84,21 @@ const Footer = () => {
             <Row>
               <Col>
                 <div className="pt-5">
-                  <FacebookIcon className="m-2" fontSize="large" />
-                  <TwitterIcon className="m-2" fontSize="large" />
-                  <YouTubeIcon className="m-2" fontSize="large" />
+                  <FacebookIcon
+                    className="m-2"
+                    fontSize="large"
+                    style={{ color: 'white' }}
+                  />
+                  <TwitterIcon
+                    className="m-2"
+                    fontSize="large"
+                    style={{ color: 'white' }}
+                  />
+                  <YouTubeIcon
+                    className="m-2"
+                    fontSize="large"
+                    style={{ color: 'white' }}
+                  />
                 </div>
               </Col>
               <Col>

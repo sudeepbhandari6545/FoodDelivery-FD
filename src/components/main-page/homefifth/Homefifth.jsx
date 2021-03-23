@@ -9,7 +9,7 @@ const Homefifth = () => {
         <Container>
           <Row>
             <Col>
-              <div className="pt-5">
+              <div className="pt-5 pb-3">
                 <img
                   className="icon-image"
                   src={process.env.PUBLIC_URL + './image/small icon/icon.png'}
@@ -34,7 +34,7 @@ const Homefifth = () => {
               </div>
             </Col>
             <Col>
-              <div className="pt-5">
+              <div className="pt-5 pb-3">
                 <img
                   className="icon-image"
                   src={process.env.PUBLIC_URL + './image/small icon/icon2.png'}
