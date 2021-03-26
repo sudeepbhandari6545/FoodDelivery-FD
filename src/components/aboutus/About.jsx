@@ -127,6 +127,168 @@ const About = () => {
           </Row>
         </Container>
       </div>
+      {/* about gallery image */}
+      <div className="about-gallery">
+        <Container>
+          <Row>
+            <Col md={4}>
+              <div>
+                <img
+                  className="aboutimage"
+                  src={
+                    process.env.PUBLIC_URL + './image/about-image/about-img.jpg'
+                  }
+                />
+              </div>
+            </Col>
+            <Col md={4}>
+              <div>
+                <img
+                  className="aboutimage"
+                  src={
+                    process.env.PUBLIC_URL +
+                    './image/about-image/about-img1.jpg'
+                  }
+                />
+              </div>
+            </Col>
+            <Col md={4}>
+              <div>
+                <img
+                  className="aboutimage"
+                  src={
+                    process.env.PUBLIC_URL +
+                    './image/about-image/about-img2.jpg'
+                  }
+                />
+              </div>
+            </Col>
+            <Col md={4}>
+              <div>
+                <img
+                  className="aboutimage"
+                  src={
+                    process.env.PUBLIC_URL +
+                    './image/about-image/about-img3.jpg'
+                  }
+                />
+              </div>
+            </Col>
+            <Col md={4}>
+              <div>
+                <img
+                  className="aboutimage"
+                  src={
+                    process.env.PUBLIC_URL +
+                    './image/about-image/about-img4.jpg'
+                  }
+                />
+              </div>
+            </Col>
+            <Col md={4}>
+              <div>
+                <img
+                  className="aboutimage"
+                  src={
+                    process.env.PUBLIC_URL +
+                    './image/about-image/about-img5.jpg'
+                  }
+                />
+              </div>
+            </Col>
+            {/* third row */}
+            <Col md={4}>
+              <div>
+                <img
+                  className="aboutimage"
+                  src={
+                    process.env.PUBLIC_URL +
+                    './image/about-image/about-img6.jpg'
+                  }
+                />
+              </div>
+            </Col>
+            <Col md={4}>
+              <div>
+                <img
+                  className="aboutimage"
+                  src={
+                    process.env.PUBLIC_URL +
+                    './image/about-image/about-img7.jpg'
+                  }
+                />
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      {/* about fourth part */}
+      <div>
+        <Container>
+          <Row>
+            <Col>
+              <div className="p-4">
+                <h4 className="font-weight-bold">
+                  Our Qoal is to Offer You Food of the <br /> Best Quality and
+                  Taste
+                </h4>
+                <p>
+                  Morbi felis sapien, tempor sit amet eleifend eget, dignissim
+                  non tellus. Ut ut tempor est. Etiam ullamcorper libero sed
+                  turpis tempus ultrices eget in enim. Morbi tellus mauris,
+                  lobortis id tellus nec, ultrices iaculis lectus. Phasellus
+                  eget leo eu turpis vulputate scelerisque eu lobortis eros.
+                  Nulla facilisi. Etiam finibus leo purus, ac vehicula justo
+                  sagittis eget.
+                </p>
+                <p>
+                  Integer orci nibh, cursus ac nunc et, mattis ullamcorper
+                  massa. Donec ac sapien turpis. Nulla facilisi. Praesent ut leo
+                  pretium, fermentum ante a, pellentesque ligula. Nunc
+                  facilisis, tellus facilisis ornare tristique, libero felis
+                  rutrum urna, accumsan interdum nibh arcu eget urna. In hac
+                  habitasse platea dictumst. Phasellus scelerisque ut nunc vel
+                  maximus
+                </p>
+                <p>
+                  Nunc facilisis, tellus facilisis ornare tristique, libero
+                  felis rutrum urna, accumsan interdum nibh arcu eget urna
+                </p>
+              </div>
+            </Col>
+            <Col>
+              <div className="p-4">
+                <div>
+                  <h4 className="font-weight-bold">Quality Food</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                    elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
+                    leo.
+                  </p>
+                </div>
+                <hr />
+                <div>
+                  <h4 className="font-weight-bold">Fast Delivery</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                    elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
+                    leo.
+                  </p>
+                </div>
+                <hr />
+                <div>
+                  <h4 className="font-weight-bold">Affordable Prices</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                    elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
+                    leo.
+                  </p>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </>
   );
 };
