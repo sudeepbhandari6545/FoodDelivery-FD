@@ -288,6 +288,43 @@ const About = () => {
             </Col>
           </Row>
         </Container>
+        <div>
+          <Container>
+            <div>
+              <h1 className="text-capitalize text-center font-weight-bold">
+                Our Investors
+              </h1>
+              <Row>
+                <div>
+                  <img
+                    className=""
+                    src={process.env.PUBLIC_URL + './image/slider/slide.png'}
+                  />
+                  <img
+                    className=""
+                    src={process.env.PUBLIC_URL + './image/slider/slide.png'}
+                  />
+                  <img
+                    className=""
+                    src={process.env.PUBLIC_URL + './image/slider/slide.png'}
+                  />
+                  <img
+                    className=""
+                    src={process.env.PUBLIC_URL + './image/slider/slide.png'}
+                  />
+                  <img
+                    className=""
+                    src={process.env.PUBLIC_URL + './image/slider/slide.png'}
+                  />
+                  <img
+                    className=""
+                    src={process.env.PUBLIC_URL + './image/slider/slide.png'}
+                  />
+                </div>
+              </Row>
+            </div>
+          </Container>
+        </div>
       </div>
     </>
   );
