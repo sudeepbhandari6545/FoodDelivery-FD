@@ -2,6 +2,8 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import ReactPlayer from 'react-player';
 import Countup from 'react-countup';
+
+import Aboutcomponent from './About.component';
 import './about.css';
 
 const About = () => {
@@ -294,35 +296,8 @@ const About = () => {
               <h1 className="text-capitalize text-center font-weight-bold">
                 Our Investors
               </h1>
-              <Row>
-                <div>
-                  <img
-                    className=""
-                    src={process.env.PUBLIC_URL + './image/slider/slide.png'}
-                  />
-                  <img
-                    className=""
-                    src={process.env.PUBLIC_URL + './image/slider/slide.png'}
-                  />
-                  <img
-                    className=""
-                    src={process.env.PUBLIC_URL + './image/slider/slide.png'}
-                  />
-                  <img
-                    className=""
-                    src={process.env.PUBLIC_URL + './image/slider/slide.png'}
-                  />
-                  <img
-                    className=""
-                    src={process.env.PUBLIC_URL + './image/slider/slide.png'}
-                  />
-                  <img
-                    className=""
-                    src={process.env.PUBLIC_URL + './image/slider/slide.png'}
-                  />
-                </div>
-              </Row>
             </div>
+            <Aboutcomponent className="d-flex" />
           </Container>
         </div>
       </div>
